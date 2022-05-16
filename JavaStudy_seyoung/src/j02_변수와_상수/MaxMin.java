@@ -15,7 +15,8 @@ public class MaxMin {
 		
 		final String PATH = "C:\\junil\\workspace";
 		
-		final double PI = 3.14;
+	    final double PI = 3.14;
+	    	
 			
 		
 		// 상수라고 표기하기 위해 대문자로 작성
@@ -33,6 +34,8 @@ public class MaxMin {
 		/* 업캐스팅 : 문자->정수->실수 (값이 작은 범위에서 큰 범위로의 형 변환/ 묵시적 형 변환-형 변환 타입 생략 가능)
 		 * 다운캐스팅: 실수->정수->문자 (값이 킅 범위에서 작은 범위로의형 변환/ 명시적 형 변환-형 변환 타입 생략 불가능)
 		 */
+				
+		System.out.println(PI);
 		
 		
 	}
