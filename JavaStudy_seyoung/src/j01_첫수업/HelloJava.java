@@ -3,7 +3,7 @@ package j01_첫수업;
 public class HelloJava {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+
 		System.out.print("Hello, Java"); // 줄바꿈 안해줌
 		System.out.println("Hello, Java");	// 출력 후 줄바꿈을 해줌
 //		"ln" 줄바꿈 역할
@@ -15,58 +15,25 @@ public class HelloJava {
 //		줄을 바꾸라는 명령
 		
 		System.out.print("이름: ");
-		System.out.println("김준일");
+		System.out.println("셀피");
 		System.out.print("직업: ");
-		System.out.println("강사");
+		System.out.println("취준생");
 		System.out.print("나이: ");
-		System.out.println(29);
+		System.out.println(27);
 		
-		int age = 30;
+		int age = 27;
 	
 		System.out.print("이름: ");
-		System.out.println("김준일");
+		System.out.println("셀피");
 		System.out.print("직업: ");
-		System.out.println("강사");
+		System.out.println("취준생");
 		System.out.print("나이: ");
 		System.out.println(age);
-		System.out.print("이름: ");
-		System.out.println("김준일");
-		System.out.print("직업: ");
-		System.out.println("강사");
-		System.out.print("나이: ");
-		System.out.println(age);	System.out.print("이름: ");
-		System.out.println("김준일");
-		System.out.print("직업: ");
-		System.out.println("강사");
-		System.out.print("나이: ");
-		System.out.println(age);	System.out.print("이름: ");
-		System.out.println("김준일");
-		System.out.print("직업: ");
-		System.out.println("강사");
-		System.out.print("나이: ");
-		System.out.println(age);	System.out.print("이름: ");
-		System.out.println("김준일");
-		System.out.print("직업: ");
-		System.out.println("강사");
-		System.out.print("나이: ");
-		System.out.println(age);	System.out.print("이름: ");
-		System.out.println("김준일");
-		System.out.print("직업: ");
-		System.out.println("강사");
-		System.out.print("나이: ");
-		System.out.println(age);
+
 		
 		age = age + 2;
 		
-		System.out.print("이름: ");
-		System.out.println("김준일");
-		System.out.print("직업: ");
-		System.out.println("강사");
-		System.out.print("나이: ");
-		System.out.println(age);
-		
-		
-		
+			
 		
 		
 		
@@ -92,7 +59,6 @@ public class HelloJava {
 		// 2진수  0000 0001 0010 0011 0100 0101 0110 0111 1000
 		// 8진수  0 1 2 3 4 5 6 7 10 11 12 13 14 15 16 17 20 21 22 23
 		// 16진수 0 1 2 3 4 5 6 7 8 9 A	B C D E F 10 11 12 --- 19 1A 1B
-		
 		//1. 비트(Bit): 0과 1의 값을 저장하기 위한 최소 단위
 		//1비트가 가지는 총 경우의 수는 0과 1, 두 가지이다.
 		// 2. 바이트(byte) 9bit를 한 단위로 표준화한 용량 단위 ,- 바이트를 통해 자료형 크기 계산
@@ -101,7 +67,7 @@ public class HelloJava {
 		//1byte=256가지 2byte=(256)의 제곱
 		
 		// \u0000 (유니코드)
-		System.out.println("\uAC01"); 
+		System.out.println("\uAC01"); 	
 		
 		
 		// Boolean(1bit) char(2byte) int(4byte) double(8byte)

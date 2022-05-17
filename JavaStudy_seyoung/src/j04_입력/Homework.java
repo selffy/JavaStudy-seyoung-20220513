@@ -8,7 +8,7 @@ public class Homework {
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("값 입력: ");
+		System.out.print("값 입력: ");
 		
 		int year = scanner.nextInt();
 		
@@ -16,10 +16,10 @@ public class Homework {
 				&& year % 100 != 0 
 				|| year % 400 == 0 ? 1 : 0;
 		
-		System.out.println(result);
+		System.out.print(result);
 		
 						
-		// ctrl + F11			
+		// ctrl + Shift + L	 (단축키 도움말)
 						
 	}
 	
