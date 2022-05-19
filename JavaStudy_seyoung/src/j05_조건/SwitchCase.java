@@ -8,7 +8,7 @@ public class SwitchCase {
 		char a = 'c';
 		String str = "셀피";
 		
-		switch(num / 10 ) {
+		switch(num / 10 ) { //케이스에서 찾고자 하는 값
 			case 1:
 				System.out.println("case 1");
 				break;
@@ -20,7 +20,7 @@ public class SwitchCase {
 				break;
 			default: 
 				System.out.println("찾을 수 없음");
-		}
+		
 		switch(a) {
 			case 'a':
 				System.out.println("case a");
@@ -37,7 +37,7 @@ public class SwitchCase {
 		switch(str) {
 			case "셀피":
 				System.out.println("case 셀피");
-				break;
+				break; 
 			case "지니":
 				System.out.println("case 지니");
 				break;
@@ -48,8 +48,9 @@ public class SwitchCase {
 				System.out.println("찾을 수 없음");
 		}
 		
+	
+		}
 	}
-		
 }
 		
 		
