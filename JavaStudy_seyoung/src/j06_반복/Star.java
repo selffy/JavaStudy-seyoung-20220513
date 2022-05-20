@@ -31,12 +31,26 @@ public class Star {
 	
 	
 		for(int i = 0; i < 5; i++) {
-			for(int j = 0; j < 5 - i; j++) {
+			for(int s = 0; s < 5 - (i + 1) ; s++) {
 				System.out.print(" ");
-				System.out.println("*");
 			}
+			for(int j = 0; j < i + 1; j++) {
+				System.out.print("*");
+			}
+			System.out.println();
 		}
-	
+
+		
+		for(int i = 0; i < 5; i++) {
+			for(int s = 0; s < 5 - i ; s++) {
+				System.out.print("*");
+			}
+			for(int j = 0; j < i + 1; j++) {
+				System.out.print(" ");
+			}
+			System.out.println();
+			
+		}				
 	
 	/* 숙제 (실화야?)
 	 *     * - 스페이스 4 / 별 1
@@ -59,5 +73,9 @@ public class Star {
 	 */
 	
 	
+
+
+
+	}
+ }
 	
-}
