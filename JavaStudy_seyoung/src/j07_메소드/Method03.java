@@ -24,6 +24,7 @@ public class Method03 {
 		System.out.println("double자료형 매개변수가 둘인 test1 호출");
 	}
 	
+	
 	public static void test1(int num, double dnum) {
 		System.out.println("int자료형 다음에 double자료형 매개변수가 둘인 test1 호출");
 	}
