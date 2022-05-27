@@ -28,9 +28,9 @@ public class Array02 {
 		
 		}
 	
-		int[] numbers = new int[size];
+		int[] numbers = new int[size]; //배열 변수 선언
 		
-		for(int i = 0, j = 0; i < 100; i++) {
+		for(int i = 0, j = 0; i < 100; i++) {  //size변수의 크기에 해당하는 배열 생성
 			if( i != 0 && i % 8 ==0) {
 				numbers[j] = i;
 				System.out.println(numbers[j]);
