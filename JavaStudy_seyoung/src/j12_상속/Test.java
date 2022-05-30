@@ -2,6 +2,7 @@ package j12_상속;
 
 	/*
 	 * 상속(extends) 
+	 * private 메소드는 절대 상속될 수 없음!!
 	 */
 
 public class Test {

@@ -11,7 +11,8 @@ public class FactoryMain {
 		
 		Factory[] factorys = new Factory[100];
 		
-//		factorys[0] = new SmartPhoneFactory();        //업캐스팅이 가능하기 때문. 업캐스팅을 하게되면 부모가 가진 메소드 밖에 못씀.
+//		factorys[0] = new SmartPhoneFactory();        \
+		//업캐스팅이 가능하기 때문. 업캐스팅을 하게되면 부모가 가진 메소드 밖에 못씀.
 //		factorys[1] = new ComputerFactory();
 		
 		for(int i = 0; i < factorys.length; i++) {
