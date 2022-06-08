@@ -11,8 +11,8 @@ package j15_인터페이스;
  */
 
 public interface Hdmi {
-	public void connect()
-	;	
+	public void connect();
+	
 	public void disconnect(); // <-> abstract 클래스와 정반대인 클래스
 	void vgaConnect();
 	}
