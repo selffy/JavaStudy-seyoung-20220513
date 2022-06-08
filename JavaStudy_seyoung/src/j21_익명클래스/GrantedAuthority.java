@@ -7,3 +7,5 @@ public interface GrantedAuthority {
 	public Collection<String> getRoles(List<String> roles);
 		
 	}
+
+

@@ -43,7 +43,7 @@ public class ArrayListEx {
 			System.out.println(strArrayList.get(i));
 		}
 		
-		strArrayList.forEach(r -> {System.out.println(r);});
+		strArrayList.forEach(r -> {System.out.println(r);}); //리턴이 없는 경우. 중괄호 생략불가. 매개변수가 하나인 경우에는 괄호도 생략가능
 		
 
 	}
