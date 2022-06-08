@@ -11,4 +11,10 @@ public class BeamProjector implements Hdmi {
 	public void disconnect() {
 		System.out.println("빔프로젝트 연결 해제");
 	}
+
+	@Override
+	public void vgaConnect() {
+		// TODO Auto-generated method stub
+		
+	}
 }
