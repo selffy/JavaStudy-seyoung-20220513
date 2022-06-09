@@ -24,5 +24,11 @@ public class Monitor implements Hdmi, VGA {
 		
 	}
 
+	@Override
+	public void vgadisconnect() {
+		// TODO Auto-generated method stub
+		
+	}
+
 	
 }
